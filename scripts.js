@@ -14,10 +14,10 @@ setInterval(function () {
 
   next.setAttribute("data-show", "");
 
-  // Increment the counter and reset it to 1 when it reaches 10
+ 
   i = (i % 10) + 1;
 
-  // Optionally, you can log the counter for debugging purposes
+  
   console.log("Counter:", i);
 
 }, 8000);
