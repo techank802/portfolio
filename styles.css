@@ -9,11 +9,15 @@
 
 .navbar-brand {
   padding-left: 120px;
-  color: #beadfa;
+  color: rgb(51, 255, 0);
   font-size: 30px;
   font-weight: 900;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+.hero-title{
+  color: #007bff;
 }
 
 .navbar-toggler {
@@ -41,7 +45,7 @@
 }
 
 .nav-link {
-  color: #c394eb;
+  color: yellowgreen;
   text-decoration: none;
   font-size: 18px;
   font-weight: 400;
@@ -64,8 +68,8 @@
 
 .btn-outline-success {
   background-color: transparent;
-  border: 1px solid #854eb9;
-  color: #d5b9f0;
+  border: 1px solid greenyellow;
+  color: goldenrod;
 }
 
 .btn-outline-success:hover {
@@ -75,8 +79,13 @@
 .hero {
   width: auto;
   /* height: 900px; */
-  background-color: #caadfa;
+  background-color: #cefaad;
   padding: 50px 0;
+  background-image: url(https://images.unsplash.com/photo-1504598318550-17eba1008a68?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHRyYXZlbCUyMGFzaWElMjBsb2dvfGVufDB8fDB8fHww);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
 }
 .hero-right {
   padding-top: 190px;
@@ -148,7 +157,7 @@ h2 {
   margin-bottom: 30px;
 }
 .btn-primary {
-  background-color: #5928a7;
+  background-color: orange;
   color: #fff;
   font-size: 16px;
   font-weight: 600;
@@ -158,7 +167,7 @@ h2 {
   cursor: pointer;
 }
 .btn-primary:hover {
-  background-color: #b446fd;
+  background-color: goldenrod;
   color: #fff;
   border-radius: 10px;
   padding: 15px 30px;
@@ -203,16 +212,16 @@ h2 {
   margin-bottom: 30px;
 }
 
-.about-skills {
+.about-Adventures {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.about-skills li {
+.about-Adventures li {
   display: inline-block;
   margin-right: 10px;
-  background-color: #007bff;
+  background-color: #37ff00;
   color: #fff;
   padding: 5px 10px;
   border-radius: 5px;
@@ -235,7 +244,7 @@ h2 {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: #007bff;
+  background-color: #00ff7b;
   color: #fff;
   font-size: 20px;
   text-align: center;
@@ -244,17 +253,17 @@ h2 {
 }
 
 .social-media-icon:hover {
-  background-color: #0056b3;
+  background-color: #a4b300;
 }
-.skills {
+.Adventures {
   /* margin-top: 32px; */
   width: auto;
   /* height: 500px; */
-  background-color: #caadfa;
+  background-color: #adfad6;
   padding: 50px 0;
 }
 
-.skills-title {
+.Adventures-title {
   
   /* margin-top: 120px; */
   font-size: 32px;
@@ -263,7 +272,7 @@ h2 {
   margin-bottom: 30px;
 }
 
-.skill-name {
+.Adventure-name {
   margin-bottom: 10px;
 }
 
@@ -273,18 +282,18 @@ h2 {
 }
 
 .progress-bar {
-  background-color: #8400ff;
+  background-color: #ff3c00;
   color: #f8eaea;
   font-weight: bold;
 }
-.portfolio {
+.places {
   width: auto;
   /* height: 890px; */
   background-color: #f8f9fa;
   padding: 70px 0;
 }
 
-.portfolio-title {
+.places-title {
   font-size: 32px;
   font-weight: 700;
   text-align: center;
@@ -292,19 +301,19 @@ h2 {
   text-transform: uppercase;
 }
 
-.portfolio-item {
+.places-item {
   position: relative;
   overflow: hidden;
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
-.portfolio-image {
+.places-image {
   width: 100%;
   height: 300px;
 }
 
-.portfolio-overlay {
+.places-overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -320,18 +329,18 @@ h2 {
   transition: opacity 0.3s ease;
 }
 
-.portfolio-item:hover .portfolio-overlay {
+.places-item:hover .places-overlay {
   opacity: 1;
 }
 
-.portfolio-title {
+.places-title {
   
   font-size: 22px;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
-.portfolio-description {
+.places-description {
   font-size: 16px;
   margin-bottom: 0;
 }
@@ -473,7 +482,7 @@ h2 {
   }
 
   /* Portfolio Section */
-  .portfolio-item {
+  .places-item {
     flex: 0 0 33.333%; /* Adjust column width */
   }
 }
